@@ -5,136 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email 1</title>
-    <style>
-      body {
-        margin: 1% auto;
-        border: solid thin #fff;
-        padding: 1%;
-        background-color: #cccccc;
-        max-width: 600px;
-        font-family: sans-serif;
-      }
-
-      table {
+  </head>
+  <body
+    style="
+      margin: 1% auto;
+      border: solid thin #fff;
+      padding: 1%;
+      background-color: #cccccc;
+      max-width: 600px;
+      font-family: sans-serif;
+    "
+  >
+    <!-- MAIN TABLE -->
+    <table
+      style="
         margin: 0 auto;
         max-width: 500px;
-      }
-
-      table,
-      th,
-      td {
         padding: 10px;
-        border-collapse: collapse;
-      }
-    </style>
-  </head>
-
-  <body>
-    <!-- HEADER -->
-    <header style="text-align: center; color: #2c5364">
-      <table>
-        <tr>
-          <td><h1>Austin's HTML Email</h1></td>
-          <td>
-            <a href="https://www.austincomstock.net/" target="_blank"
-              ><img
-                src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/16d80ee0-36e7-8a5a-b65c-bf7cbff96989.jpg"
-                alt="Robot Logo"
-                title="austincomstock.net"
-                height="150px"
-            /></a>
-          </td>
-        </tr>
-      </table>
-    </header>
-
-    <!-- CONTENT -->
-    <table style="background-color: #91abc9; color: #000">
+        /* border-collapse: collapse; */
+        border: solid thin #000;
+      "
+    >
       <tr>
-        <th style="text-align: left">Content Placeholder</th>
-      </tr>
-      <tr>
-        <td>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          consequatur, dolorum id quis libero facilis est! Tempora nihil
-          voluptate consectetur? Nobis omnis commodi sit non nemo voluptas
-          accusamus? Sed, inventore!
+        <td style="padding: 10px; border-collapse: collapse">
+          <!-- HEADER -->
+          <header style="text-align: center; color: #2c5364">
+            <table>
+              <tr>
+                <td><h1>Austin's HTML Email</h1></td>
+                <td>
+                  <a href="https://www.austincomstock.net/" target="_blank"
+                    ><img
+                      src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/16d80ee0-36e7-8a5a-b65c-bf7cbff96989.jpg"
+                      alt="Robot Logo"
+                      title="austincomstock.net"
+                      height="150px"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </header>
+
+          <!-- CONTENT -->
+          <table style="background-color: #91abc9; color: #000">
+            <tr>
+              <th style="text-align: left">Content Placeholder</th>
+            </tr>
+            <tr>
+              <td>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate consequatur, dolorum id quis libero facilis est!
+                Tempora nihil voluptate consectetur? Nobis omnis commodi sit non
+                nemo voluptas accusamus?
+              </td>
+            </tr>
+          </table>
+
+          <!-- BUTTON -->
+          <table style="margin: 1% auto">
+            <tr>
+              <td>
+                <button
+                  style="
+                    background-color: #fff;
+                    border: none;
+                    height: 40px;
+                    width: 100px;
+                    font-weight: bold;
+                  "
+                >
+                  <a href="#" target="_blank" style="color: #49a57a"
+                    >Get Started</a
+                  >
+                </button>
+              </td>
+            </tr>
+          </table>
+
+          <!-- SOCIAL MEDIA ICONS -->
+          <table style="margin: 0 auto">
+            <tr>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/austin.comstock.18"
+                  ><img
+                    src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/32c819a4-9539-7038-0b6c-7a6a552aead6.png"
+                    alt="facebook"
+                /></a>
+              </td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/austincomstock/"
+                  ><img
+                    src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/42557c36-46af-ce96-7355-5b7d1bfa2a58.png"
+                    alt="instagram"
+                /></a>
+              </td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/austincomstock/"
+                  ><img
+                    src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/e60bb70b-6ede-9abd-9e45-0bd4fc455b04.png"
+                    alt="linkedin"
+                /></a>
+              </td>
+              <td>
+                <a target="_blank" href="https://github.com/austincomstock"
+                  ><img
+                    src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/991079fa-1f9f-f207-65d0-7112c0de3b0d.png"
+                    alt="github"
+                /></a>
+              </td>
+            </tr>
+          </table>
+
+          <!-- FOOTER -->
+          <footer>
+            <hr />
+            <table style="margin: 0 auto">
+              <tr>
+                <td>
+                  <p style="color: #2c5364; padding: 0px 5px">
+                    Copyright ⓒ 2023
+                  </p>
+                </td>
+                <td>
+                  <a
+                    target="_blank"
+                    href="https://icons8.com/"
+                    style="
+                      text-decoration: none;
+                      color: #2c5364;
+                      padding: 0px 5px;
+                    "
+                    >Icons 8</a
+                  >
+                </td>
+                <td>
+                  <a
+                    href="#"
+                    target="_blank"
+                    style="color: #2c5364; padding: 0px 5px"
+                    >Unsubscribe</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </footer>
         </td>
       </tr>
     </table>
-
-    <!-- BUTTON -->
-    <table>
-      <tr>
-        <td>
-          <button
-            style="
-              background-color: #fff;
-              border: none;
-              height: 40px;
-              width: 100px;
-              font-weight: bold;
-            "
-          >
-            <a href="#" target="_blank" style="color: #49a57a">Get Started</a>
-          </button>
-        </td>
-      </tr>
-    </table>
-
-    <!-- SOCIAL MEDIA ICONS -->
-    <table>
-      <tr>
-        <td>
-          <a target="_blank" href="https://icons8.com/icon/118490/facebook"
-            ><img
-              src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/32c819a4-9539-7038-0b6c-7a6a552aead6.png"
-              alt="facebook"
-          /></a>
-        </td>
-        <td>
-          <a target="_blank" href="https://icons8.com/icon/84884/instagram"
-            ><img
-              src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/42557c36-46af-ce96-7355-5b7d1bfa2a58.png"
-              alt="instagram"
-          /></a>
-        </td>
-        <td>
-          <a target="_blank" href="https://icons8.com/icon/84884/instagram"
-            ><img
-              src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/e60bb70b-6ede-9abd-9e45-0bd4fc455b04.png"
-              alt="linkedin"
-          /></a>
-        </td>
-        <td>
-          <a target="_blank" href="https://icons8.com/icon/84884/instagram"
-            ><img
-              src="https://mcusercontent.com/dbc1f5a23894eea4cf20f9d80/images/991079fa-1f9f-f207-65d0-7112c0de3b0d.png"
-              alt="github"
-          /></a>
-        </td>
-      </tr>
-    </table>
-
-    <!-- FOOTER -->
-    <footer style="text-align: center; margin: 1%; padding: 1%">
-      <hr />
-      <table>
-        <tr>
-          <td><p style="color: #2c5364">Copyright ⓒ 2003</p></td>
-          <td>
-            <a
-              target="_blank"
-              href="https://icons8.com/"
-              style="text-decoration: none; color: #2c5364"
-              >Icons 8</a
-            >
-          </td>
-          <td>
-            <a href="#" target="_blank" style="color: #2c5364">Unsubscribe</a>
-          </td>
-        </tr>
-      </table>
-    </footer>
   </body>
 </html>
